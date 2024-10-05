@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'swanski';
+  src: url('./assets/swanski.ttf');
+}
+
+@font-face {
+  font-family: 'oswald';
+  src: url('./assets/oswald.ttf');
+}
+
+@font-face {
+  font-family: 'handjet';
+  src: url('./assets/handijet.ttf');
+}
+
+body {
+  color: rgb(240, 252, 252);
+  font-family: 'oswald';
+  background-color: rgb(1, 1, 7);
+}
+
+.navbarcustom a {
+  color: chartreuse;
+}
+
+.bb {
+  color: black;
+  font-family: 'swanski';
+}
+
+.imgDisplay {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.myCard {
+  border-radius: 20px;
+  background-color: crimson;
+}
+
+.myCard h5,
+.myCard a {
+  text-decoration: none;
+  color: beige;
+}
+
+.ft {
+  color: black;
+  font-family: 'swanski';
+  background-color: rgb(29, 71, 207);
+  border-radius: 15px;
+  width: 100px;
+  height: 40px;
+  border: none;
+}
+
+.ft:hover {
+  background-color:  rgb(69, 100, 202);
+}
+
+.ft[disabled]:hover {
+  cursor: not-allowed !important;
+}
