@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Users() {
   const usrConxt = useContext(UserContext);
-  const { users } = usrConxt
+  const { users } = usrConxt;
 
   return (
     <motion.div

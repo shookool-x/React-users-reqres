@@ -5,7 +5,6 @@ import UserContext from "./components/contexts/userscontext";
 
 import Users from "./components/users";
 import Navbar from "./components/navbar";
-// import Login from "./components/login";
 import Oneuser from "./components/takuser";
 import WithNavigate from "./components/vaset"
 import Dashbord from "./components/dashbord";
@@ -84,7 +83,7 @@ function App() {
   }
 
   function handleUpdate(id) {
-    const index = users.findIndex(item => Number(item.id) === id);
+    const index = users.findIndex(item => Number(item.id) === Number(id));
     const newUsrs = [...users];
     newUsrs[index].email = "Removed Email!";
     setUsers(newUsrs);
